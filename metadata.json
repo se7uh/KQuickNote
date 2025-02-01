@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "se7uh"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Quick note widget for KDE Plasma",
+        "Icon": "accessories-text-editor",
+        "Id": "com.se7uh.kquicknote",
+        "License": "MIT",
+        "Name": "KQuickNote",
+        "Version": "1.0",
+        "Website": "https://github.com/se7uh/kquicknote",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ]
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "ApplicationStatus",
+    "X-Plasma-API-Minimum-Version": "6.0"
+} 
